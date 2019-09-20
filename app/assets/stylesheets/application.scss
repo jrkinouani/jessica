@@ -1,0 +1,25 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.navbar-default .navbar-nav > li > a {
+    color: red;
+    margin-right: 20px;
+}
+section
+{
+  position:relative;
+  background-color: #343a40;
+  background: url("/droit.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 30px;
+  padding-bottom: 8rem;
+  height: 510px;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
