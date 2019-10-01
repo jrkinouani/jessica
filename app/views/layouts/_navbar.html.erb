@@ -9,16 +9,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Jessica N'ganga</a>
+          <%= link_to "Jessica N'ganga", root_path, class:"navbar-brand"%>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="link">Nos services</a></li>
-            <li><a href="#" class="link">Nos tarifs</a></li>
-            <li><a href="#" class="link">Contactez-nous</a></li>
-
+            <li class="link_nav"><%= link_to "Nos services ", service_path, class:"#" %></li>
+            <li class="link_nav"><%= link_to "Nos tarifs ", tarifs_path, class:"#" %></li>
 
           </ul>
         </div><!-- /.navbar-collapse -->
