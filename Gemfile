@@ -1,5 +1,4 @@
-#source 'https://rubygems.org'
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+source 'https://rubygems.org'
 gem 'rails', '~> 5.1.6', '>= 5.1.6.2'
 gem 'puma', '~> 3.7'
 gem 'uglifier', '>= 1.3.0'
